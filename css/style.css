@@ -199,6 +199,18 @@ main .sub-article .article-content .article-text p:last-of-type {
   font-weight: 200;
 }
 
+main .main-pagination nav {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background-color: transparent;
+  margin: auto;
+}
+
+main .main-pagination nav a {
+  color: #000;
+}
+
 .sub-article:hover {
   -webkit-transform: translate3d(0, -3px, 0);
           transform: translate3d(0, -3px, 0);
@@ -210,7 +222,7 @@ main .sub-article .article-content .article-text p:last-of-type {
 }
 
 footer {
-  padding-top: 6em;
+  padding-top: 3em;
 }
 
 footer #footer-sec {

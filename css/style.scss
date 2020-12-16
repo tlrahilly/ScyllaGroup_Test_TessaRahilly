@@ -159,6 +159,16 @@ main{
             }
         }
     }
+    .main-pagination{
+        nav{
+            width: max-content;
+            background-color: transparent;
+            margin: auto;
+            a{
+                color: #000;
+            }
+        }
+    }
 }
 .sub-article:hover{
     transform: translate3d(0, -3px, 0);
@@ -167,7 +177,7 @@ main{
     }
 }
 footer{
-    padding-top: 6em;
+    padding-top: 3em;
     #footer-sec{
         padding: 1em 0 2em 0;
         border-top: 1px solid #000;
