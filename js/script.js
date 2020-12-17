@@ -38,17 +38,41 @@ function showItems(){
   pageNum.textContent =`${currentPage} of ${pagination}`;
 }
 
-window.onload=showItems();
+function checkPageNumber(){
+  // check to see if the current page has is 1 aka the first page on it
+  if (currentPage == 1){
+    // if it is the first page than disable the prev btn
+    prevBtn.classList.add('pag-disable');
+  } else {
+    // if it is not the first page then take off disable on prev btn
+    prevBtn.classList.remove('pag-disable');
+  }
+  // check to see if the current page has is the last page on it
+  if(currentPage == pagination){
+    // if it is  the last page than disable the next btn
+    nextBtn.classList.add('pag-disable');
+  }else {
+    // if it is not the last page then take off disable on next btn
+    nextBtn.classList.remove('pag-disable');
+  }
+}
+
+window.onload=function(){
+  showItems();
+  checkPageNumber();
+};
 
 nextBtn.addEventListener('click', function () {
   currentPage++;
   showItems();
+  checkPageNumber();
   return false;
 })
 
 prevBtn.addEventListener('click', function(){
   currentPage--;
   showItems();
+  checkPageNumber();
   return false;
 })
 

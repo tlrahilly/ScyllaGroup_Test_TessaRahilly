@@ -25,7 +25,7 @@ body {
 }
 
 .pag-disable {
-  cursor: default;
+  pointer-events: none;
 }
 
 #myBtn {
@@ -89,7 +89,7 @@ nav .container-fluid #navbarNav .nav-item {
 }
 
 main {
-  margin: 2em 0;
+  margin: 4em 0;
 }
 
 main h2 {
@@ -118,7 +118,7 @@ main #feature-article::after {
 
 main #feature-article {
   position: relative;
-  margin: 4em 0;
+  margin: 0 0 4em 0;
   padding: 0;
   width: 100%;
   -webkit-transform: translate3d(0, 0, 0);
@@ -321,6 +321,10 @@ footer #footer-sec .socialIcons div svg:hover {
   bottom: 25%;
 }
 
+.article-post-main {
+  margin-top: 2em;
+}
+
 .article-post-main #post-title {
   margin-bottom: 4em;
 }
@@ -517,6 +521,9 @@ footer #footer-sec .socialIcons div svg:hover {
   }
   footer {
     margin: 0 2em;
+  }
+  footer .socialIcons {
+    padding-right: 4em;
   }
   footer .socialIcons div svg {
     width: 2em;

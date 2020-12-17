@@ -19,7 +19,7 @@ body{
     display: none;
 }
 .pag-disable{
-    cursor: default;
+    pointer-events: none;
 }
 #myBtn{
     display: none;
@@ -72,7 +72,7 @@ nav{
    }
 }
 main{
-    margin: 2em 0;
+    margin: 4em 0;
     h2{
         border-bottom: 1px solid #000;
         padding-bottom: .3em;
@@ -95,7 +95,7 @@ main{
     }
     #feature-article{
         position: relative;
-        margin: 4em 0;
+        margin: 0 0 4em 0;
         padding: 0;
         width: 100%;
         transform: translate3d(0, 0, 0);
@@ -251,6 +251,7 @@ footer{
     }
 }
 .article-post-main{
+    margin-top: 2em;
     #post-title{
         margin-bottom: 4em;
         p:first-of-type{
@@ -468,6 +469,7 @@ footer{
     footer{
         margin: 0 2em;
         .socialIcons{
+            padding-right: 4em;
             div{
                 svg{
                 width: 2em;
