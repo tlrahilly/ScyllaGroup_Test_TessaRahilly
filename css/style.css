@@ -400,6 +400,7 @@ footer #footer-sec .socialIcons div svg:hover {
 
 .article-post-main #post-content #post-text-content #prev-next-btns #prev-btn a {
   padding: 1em 1em 1em 0;
+  color: #6b6b6b;
 }
 
 .article-post-main #post-content #post-text-content #prev-next-btns #prev-btn a svg {
@@ -408,10 +409,15 @@ footer #footer-sec .socialIcons div svg:hover {
 
 .article-post-main #post-content #post-text-content #prev-next-btns #next-btn a {
   padding: 1em 0 1em 1em;
+  color: #6b6b6b;
 }
 
 .article-post-main #post-content #post-text-content #prev-next-btns #next-btn a svg {
   margin-left: .5em;
+}
+
+.article-post-main #post-content #post-text-content #prev-next-btns #prev-btn a:hover, .article-post-main #post-content #post-text-content #prev-next-btns #next-btn a:hover {
+  color: #000;
 }
 
 .article-post-main #post-content aside {
@@ -490,6 +496,7 @@ footer #footer-sec .socialIcons div svg:hover {
   }
   .article-post-main #post-content #post-text-content #prev-next-btns a {
     font-size: 1.333em;
+    color: #6b6b6b;
   }
   .article-post-main #post-content aside .aside-articles {
     display: -webkit-box;

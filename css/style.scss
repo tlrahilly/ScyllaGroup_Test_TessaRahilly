@@ -310,15 +310,20 @@ footer{
                 }
                 #prev-btn a{
                     padding: 1em 1em 1em 0;
+                    color: #6b6b6b;
                     svg{
                         margin-right: .5em;
                     }
                 }
                 #next-btn a{ 
                     padding: 1em 0 1em 1em;
+                    color: #6b6b6b;
                     svg{
                         margin-left: .5em;
                     }
+                }
+                #prev-btn a:hover, #next-btn a:hover{
+                    color: #000;
                 }
             }
         }
@@ -419,6 +424,7 @@ footer{
                 #prev-next-btns{
                     a{
                         font-size: 1.333em;
+                        color: #6b6b6b;
                     }
                 }
             }
