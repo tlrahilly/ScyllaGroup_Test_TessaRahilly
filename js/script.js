@@ -37,7 +37,7 @@ function showItems(){
     }
   }
   // get the current page number and the number of total pages 
-  pageNum.textContent =`${currentPage} of ${pagination}`;
+  pageNum.textContent = currentPage + ' of ' + pagination;
 }
 
 function checkPageNumber(){
