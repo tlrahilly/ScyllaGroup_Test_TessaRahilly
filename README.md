@@ -1,2 +1,7 @@
 # ScyllaGroup_Test_TessaRahilly
  This is a code test for The Scylla Group in Winchester, VA.
+
+All of the instructions were pretty clear in what was required for the test. The only thing I might have over thought was if the feature article is included in the 6 articles per page or if it just meant to cycle through the 24 articles and keep the feature article on the page. Making the site responsive for 2560x1440 was a fun challenge. The only thing that was really hard for me was trying a Webpack configuration since I haven't done that before. I spent about a day looking through the documentation for it and tried to implement it. I realized that it would take me more time than I would like to understand it correctly and not mess up for this test. So instead I used an online source to minify my finished CSS and JS.
+
+My process for this was to do a wireframe of what I wanted, pick fonts, colors, decide if I was going to use BootStrap and then start coding. I gave myself three days to complete this test. Two days were allocated for completing all of the HTML, CSS, and JS. The third day was for looking for any minor changes that needed to be made and trying to figure out how to implement Webpack. What best helped me was that I used Bootstrap and that it wasn't too JS heavy since it would have taken me longer if more JS was needed. If I had the time I may have spent more time on the design of the blogroll page.
+
