@@ -15,6 +15,12 @@
 body{
     background-color: #f1f1f1;
 }
+.hide{
+    display: none;
+}
+.pag-disable{
+    cursor: default;
+}
 #myBtn{
     display: none;
     position: fixed;
@@ -166,6 +172,15 @@ main{
             margin: auto;
             a{
                 color: #000;
+            }
+            .current-page{
+                padding: .35em .75em;
+                background-color: #fff;
+                border: 1px solid #dee2e6;
+                transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                p{
+                    margin-bottom: 0;
+                }
             }
         }
     }

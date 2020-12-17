@@ -20,6 +20,14 @@ body {
   background-color: #f1f1f1;
 }
 
+.hide {
+  display: none;
+}
+
+.pag-disable {
+  cursor: default;
+}
+
 #myBtn {
   display: none;
   position: fixed;
@@ -209,6 +217,20 @@ main .main-pagination nav {
 
 main .main-pagination nav a {
   color: #000;
+}
+
+main .main-pagination nav .current-page {
+  padding: .35em .75em;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
+
+main .main-pagination nav .current-page p {
+  margin-bottom: 0;
 }
 
 .sub-article:hover {
