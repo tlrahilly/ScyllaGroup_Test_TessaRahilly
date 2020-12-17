@@ -29,12 +29,14 @@ const pagination = Math.ceil(articleList.length/perPage);
 
 function showItems(){
   for(let i = 0; i < articleList.length; i++){
+    // hide the article list post
     articleList[i].classList.add('hide');
-    
+    // if number of posts is great than or equal to per page and number of posts is less than what the current page needs remove hide class
     if (i>=(currentPage*perPage)-perPage && i<currentPage*perPage){
       articleList[i].classList.toggle('hide');
     }
   }
+  // get the current page number and the number of total pages 
   pageNum.textContent =`${currentPage} of ${pagination}`;
 }
 
