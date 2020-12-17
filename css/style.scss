@@ -1,6 +1,7 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400;600&family=Roboto:wght@300;400;500;700;900&display=swap');
 *{
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 .container-fluid{
     padding: 0;
@@ -120,6 +121,10 @@ main{
                 font-weight: 600;
                 font-size: 1.875em;
             }
+            p{
+                font-family: 'Roboto Slab', serif;
+                font-weight: 300;
+            }
             p:last-of-type{
                 font-size: 0.813em;
                 font-weight: 200;
@@ -155,12 +160,15 @@ main{
                     font-weight: 600;
                     font-size: 1.25em;
                 }
+                p{
+                    font-family: 'Roboto Slab', serif;
+                }
                 p:first-of-type{
                     font-size: 0.875em;
                 }
                 p:last-of-type{
                     font-size: 0.625em;
-                    font-weight: 200;
+                    font-weight: 300;
                 }
             }
         }
@@ -256,17 +264,17 @@ footer{
         margin-bottom: 4em;
         p:first-of-type{
             margin-bottom: 0;
-            font-weight: 700;
+            font-weight: 400;
             text-transform: uppercase;
             color: #686868;
         }
         h1{
             font-size: 4em;
-            font-weight: 700;
+            font-weight: 800;
         }
         p:last-of-type{
             font-size: 20px;
-            font-weight: 600;
+            font-weight: 500;
             color: #6b6b6b;
             margin-top: 2em;
         }
@@ -277,15 +285,20 @@ footer{
             h3{
                 font-weight: 600;
                  margin-bottom: 1.05em;
+                 font-family: 'Roboto Slab', serif;
             }
             p{
                 line-height: 1.813em;
+                font-family: 'Roboto Slab', serif;
             }
             .post-content-img{
                 margin: 3em 0;
                 figure{
                     max-width: max-content;
                     margin: 0 auto;
+                    figcaption{
+                        font-weight: 300;
+                    }
                 }
             }
             #prev-next-btns{
@@ -293,6 +306,7 @@ footer{
                     width: max-content;
                     padding: 0;
                     margin: 3em 0;
+                    text-transform: uppercase;
                 }
                 #prev-btn a{
                     padding: 1em 1em 1em 0;
@@ -321,6 +335,9 @@ footer{
             .sub-article{
                 width: 100%;
                 margin-bottom: 2em;
+                P{
+                    margin-bottom: .6em;
+                }
             }
         }
     }

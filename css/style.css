@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400;600&family=Roboto:wght@300;400;500;700;900&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 .container-fluid {
@@ -151,6 +153,11 @@ main #feature-article #feature-text h3 {
   font-size: 1.875em;
 }
 
+main #feature-article #feature-text p {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+
 main #feature-article #feature-text p:last-of-type {
   font-size: 0.813em;
   font-weight: 200;
@@ -198,13 +205,17 @@ main .sub-article .article-content .article-text h3 {
   font-size: 1.25em;
 }
 
+main .sub-article .article-content .article-text p {
+  font-family: 'Roboto Slab', serif;
+}
+
 main .sub-article .article-content .article-text p:first-of-type {
   font-size: 0.875em;
 }
 
 main .sub-article .article-content .article-text p:last-of-type {
   font-size: 0.625em;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 main .main-pagination nav {
@@ -331,19 +342,19 @@ footer #footer-sec .socialIcons div svg:hover {
 
 .article-post-main #post-title p:first-of-type {
   margin-bottom: 0;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
   color: #686868;
 }
 
 .article-post-main #post-title h1 {
   font-size: 4em;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .article-post-main #post-title p:last-of-type {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   color: #6b6b6b;
   margin-top: 2em;
 }
@@ -355,10 +366,12 @@ footer #footer-sec .socialIcons div svg:hover {
 .article-post-main #post-content #post-text-content h3 {
   font-weight: 600;
   margin-bottom: 1.05em;
+  font-family: 'Roboto Slab', serif;
 }
 
 .article-post-main #post-content #post-text-content p {
   line-height: 1.813em;
+  font-family: 'Roboto Slab', serif;
 }
 
 .article-post-main #post-content #post-text-content .post-content-img {
@@ -372,12 +385,17 @@ footer #footer-sec .socialIcons div svg:hover {
   margin: 0 auto;
 }
 
+.article-post-main #post-content #post-text-content .post-content-img figure figcaption {
+  font-weight: 300;
+}
+
 .article-post-main #post-content #post-text-content #prev-next-btns div {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   padding: 0;
   margin: 3em 0;
+  text-transform: uppercase;
 }
 
 .article-post-main #post-content #post-text-content #prev-next-btns #prev-btn a {
@@ -415,6 +433,10 @@ footer #footer-sec .socialIcons div svg:hover {
 .article-post-main #post-content aside .sub-article {
   width: 100%;
   margin-bottom: 2em;
+}
+
+.article-post-main #post-content aside .sub-article P {
+  margin-bottom: .6em;
 }
 
 /*// Medium devices (tablets, less than 992px)*/
